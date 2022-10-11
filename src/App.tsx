@@ -1,26 +1,62 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Menu } from './components/Menu';
+import { Filters } from './components/Filters';
+import { Data, Info } from './components/Info';
+import './App.scss';
+import { getAllData } from './components/api/api';
 
-function App() {
+const data = getAllData().sort(() => Math.random() - 0.5);
+
+export const App: React.FC = () => {
+  const [perPage] = useState(12);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [filteredData, setFilteredData] = useState<Data[]>(data);
+
+  const [isVisiable, setIsVisiable] = useState(true);
+
+  const startIndex = (currentPage - 1) * perPage;
+  const endIndex = currentPage * perPage < filteredData.length
+    ? currentPage * perPage
+    : filteredData.length;
+
+  const foundItems = filteredData.slice(startIndex, endIndex);
+
+  const handleOnPageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const handleOnVisiable = () => {
+    setIsVisiable(!isVisiable);
+  }
+
+  const handleOnFilter = (data: Data[]) => {
+    setCurrentPage(1);
+    setFilteredData(data);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='main container'>
+      <section className='main__menu menu'>
+        <Menu
+          isVisiable={isVisiable}
+          onHide={handleOnVisiable}
+        />
+        <Filters
+          data={data}
+          onFilter={handleOnFilter}
+        />
+      </section>
+
+      {isVisiable && (
+        <section className='main__info info'>
+          <Info
+            total={filteredData}
+            data={foundItems}
+            currentPage={currentPage}
+            onPageChange={handleOnPageChange}
+          />
+        </section>
+      )}
+    </main>
   );
 }
-
-export default App;
