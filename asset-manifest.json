@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/moveX-task/static/css/main.56396db3.css",
+    "main.css": "/moveX-task/static/css/main.11f10b01.css",
     "main.js": "/moveX-task/static/js/main.578e7d16.js",
     "static/media/writenIcon.svg": "/moveX-task/static/media/writenIcon.1d24a2253671c20d76c22159a2773e39.svg",
     "static/media/deletingIcon.svg": "/moveX-task/static/media/deletingIcon.c773414f63110ce3f37809143bb1c1c2.svg",
@@ -18,11 +18,11 @@
     "static/media/circle.svg": "/moveX-task/static/media/circle.dc5b3f99ca70fcbe1375644def1dbfde.svg",
     "static/media/line.svg": "/moveX-task/static/media/line.1fcccd99262a0a720cbfb4a583974603.svg",
     "static/media/circle-selected.svg": "/moveX-task/static/media/circle-selected.b41728e1d70a705918dc0d7bbdaae0af.svg",
-    "main.56396db3.css.map": "/moveX-task/static/css/main.56396db3.css.map",
+    "main.11f10b01.css.map": "/moveX-task/static/css/main.11f10b01.css.map",
     "main.578e7d16.js.map": "/moveX-task/static/js/main.578e7d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.56396db3.css",
+    "static/css/main.11f10b01.css",
     "static/js/main.578e7d16.js"
   ]
 }
