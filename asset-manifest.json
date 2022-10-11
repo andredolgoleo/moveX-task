@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/moveX-task/static/css/main.e3789ba3.css",
+    "main.js": "/moveX-task/static/js/main.7e37f1f5.js",
+    "static/media/writenIcon.svg": "/moveX-task/static/media/writenIcon.1d24a2253671c20d76c22159a2773e39.svg",
+    "static/media/deletingIcon.svg": "/moveX-task/static/media/deletingIcon.c773414f63110ce3f37809143bb1c1c2.svg",
+    "static/media/ArrowUp.svg": "/moveX-task/static/media/ArrowUp.0c9f2ef606012738541adf7a7df2c329.svg",
+    "static/media/ArrowRight.svg": "/moveX-task/static/media/ArrowRight.d75b1f498933e01a9d7041846d956c57.svg",
+    "static/media/ArrowLeft.svg": "/moveX-task/static/media/ArrowLeft.30faf5b88537268fa4a738a474db740b.svg",
+    "static/media/ArrowDown.svg": "/moveX-task/static/media/ArrowDown.94c9f082923f9c6959c5b4262611bb2e.svg",
+    "static/media/LaderIcon.svg": "/moveX-task/static/media/LaderIcon.4ef869ac8dddccb94b6f3c315d46cfd4.svg",
+    "static/media/completedIcon.svg": "/moveX-task/static/media/completedIcon.4902c1dfa6e396c6d780d4de492c2891.svg",
+    "static/media/calendar.svg": "/moveX-task/static/media/calendar.1e126cdae13cee307915.svg",
+    "static/media/save-icon.svg": "/moveX-task/static/media/save-icon.73793c50d59902f3f3e0.svg",
+    "index.html": "/moveX-task/index.html",
+    "static/media/search.svg": "/moveX-task/static/media/search.2a7215e4db54780cae6b.svg",
+    "static/media/selectedLine.svg": "/moveX-task/static/media/selectedLine.2810a8a93c0c3e0d88eb8f2d59c9596a.svg",
+    "static/media/circle.svg": "/moveX-task/static/media/circle.dc5b3f99ca70fcbe1375644def1dbfde.svg",
+    "static/media/line.svg": "/moveX-task/static/media/line.1fcccd99262a0a720cbfb4a583974603.svg",
+    "static/media/circle-selected.svg": "/moveX-task/static/media/circle-selected.b41728e1d70a705918dc0d7bbdaae0af.svg",
+    "main.e3789ba3.css.map": "/moveX-task/static/css/main.e3789ba3.css.map",
+    "main.7e37f1f5.js.map": "/moveX-task/static/js/main.7e37f1f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3789ba3.css",
+    "static/js/main.7e37f1f5.js"
+  ]
+}
